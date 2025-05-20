@@ -204,8 +204,8 @@
   
   .parrafo1{
     max-width: 300ch;
-    margin-bottom: 110px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 70px;
     text-align: center;
   }
     
@@ -258,7 +258,7 @@
 
   .info{
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 100px;
     margin-right: 90px;
   }
@@ -266,6 +266,7 @@
   .info h2{
     font-size: 1.8rem;
     color: #5b5b5b;
+    margin-left: -90px;
 
   }
 
@@ -273,6 +274,7 @@
     margin-left: 0px;
     margin-right: 0px;
     max-width: 85ch;
+    margin-left: -50px;
   }
 
   .intro1{
@@ -334,7 +336,7 @@
 
   .info3 p{
     text-align: justify;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 70px;
     margin-right: 100px;
     justify-content: center;
@@ -344,7 +346,8 @@
 
   .info4{
     justify-content: center;
-    margin-bottom: 70 px;
+    margin-bottom: 100px;
+
   }
 
   .info4 p{
@@ -357,6 +360,7 @@
     margin-left: 200px;
     margin-right: 200px;
     line-height: 1.5;
+
   }
 
   .footer {
@@ -403,7 +407,7 @@
   margin-left: 0px;
   margin-right: 0px;
   align-items: center;
-  width: 100%; /* usa todo el ancho del contenedor */
+  width: 110%; /* usa todo el ancho del contenedor */
   margin: 0 auto; /* centra horizontalmente */
   display: flex;
   justify-content: center;
@@ -413,6 +417,8 @@
   width: 100%;
   height: 600px;
   border: none;
+  margin-left: -100px;
+
 }
 
 .title{
