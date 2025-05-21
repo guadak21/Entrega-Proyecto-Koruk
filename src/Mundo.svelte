@@ -3,20 +3,17 @@
     import { scaleLinear } from 'd3-scale';
     export let imagen = "";
     export let title = ""
-    export let numbers = []
-    export let planetas = [];
+    export let planetas = []
+    export let escalaTamañoPlanetas;
 
-    let numbersDivided5 = numbers.map(n => Math.floor(n / 5))
-    const escalaTamañoPlanetas = d3.scaleLinear()
-    .domain([0, Math.max(...planetas.map(p => p.valor))])
-    .range([50, 150]);
-
-    const escalaXPlanetas = d3.scaleLinear()
-    .domain([0, planetas.length - 1])
-    .range([0, 1100]);
+const escalaXPlanetas = d3.scaleLinear()
+  .domain([0, planetas.length - 1])
+  .range([0, 1100]);
 
   </script>
   
+
+
   <h3 class="headline">{title}</h3>
   <div class="mundo-container">
   <!-- Gráfico único de planetas -->
@@ -107,6 +104,10 @@
     margin-left: -1px;
   }
   
+  .valor{
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
 
 </style>
   
